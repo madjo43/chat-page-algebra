@@ -1,0 +1,8 @@
+body {
+    height: 100vh auto;
+    width: 100vh auto;
+    background-image: url("./image/grey-wall.jpg");
+    background-color: hsl(228, 26%, 56%);
+    margin: 0;
+    position: relative;
+}

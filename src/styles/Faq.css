@@ -1,0 +1,20 @@
+.faq {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: black;
+  font-weight: bolder;
+  }
+.title {
+  font-size: 80px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+.faq_sign-in{
+  display:flex;
+  justify-content: baseline;
+  align-items: flex-end;
+  font-size: 80px;
+  color: mediumaquamarine;
+}

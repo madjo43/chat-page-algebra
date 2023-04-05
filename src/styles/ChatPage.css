@@ -1,0 +1,76 @@
+.chat-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  font-weight: bold;
+}
+.chat-button {
+  background-color: hsl(255, 63%, 18%, 0.6);
+  box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.7);
+  border: 1px solid black;
+  padding: 8px 16px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.message-form label {
+  font-size: 20px;
+  font-weight: bold;
+}
+.message-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 100%;
+
+  }
+  .sendFormField{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .message {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .message-left {
+    justify-content: flex-start;
+  }
+  
+  .message-right {
+    justify-content: flex-end;
+  }
+  
+  .message-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .message-author {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .message-text {
+    word-break: break-word;
+  }
+  
+  .message-avatar {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+  }
+  .message-time {
+    font-size: 12px;
+    color: #888;
+    margin-top: 4px;
+  }
+  
