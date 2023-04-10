@@ -7,7 +7,7 @@ export function InputFormField (props){
     }
 
     return (
-    <FormField >
+    <FormField className="username-field">
         <label>{props.label}</label>
         <input type={props.type} onChange={handleChange} value={props.value} />
     </FormField>

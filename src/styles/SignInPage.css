@@ -16,3 +16,9 @@
     justify-content: center;
     align-items: center;
 }
+.username-field {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-weight: bold;
+}
